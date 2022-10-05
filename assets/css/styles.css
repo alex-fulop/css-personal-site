@@ -159,6 +159,17 @@ h2 {
     font-weight: bold;
 }
 
+.btn:hover {
+    background-color: #ce54ff;
+    cursor: pointer;
+}
+
 .contact-me {
-    margin: 3em
+    margin: 3em auto;
+    width: 50%;
+}
+
+.contact-me-text {
+    line-height: 2;
+    margin: 2rem auto;
 }

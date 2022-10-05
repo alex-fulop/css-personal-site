@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-color: #FFD6EC;
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    line-height: 2;
+}
+
+h1, h2, p {
+    color: #FF74B1;
+}
+
+a, h3 {
+    color: #AB46D2;
+}
+
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+.hero {
+    position: relative;
+    margin-top: 10%;
+    width: 100%;
+}
+
+.hero-heading {
+    font-family: 'Parisienne', cursive;
+    font-size: 5.625em;
+    margin-top: 50px;
+}
+
+.hero-subheading {
+    font-size: 48px;
+    margin: 0 auto 0 auto;
+}
+
+.sushi-1 {
+    position: absolute;
+    width: 7%;
+    transform: rotate(-70deg);
+    right: 500px;
+    top: -90px;
+}
+
+.sushi-2 {
+    position: absolute;
+    width: 7%;
+    transform: rotate(80deg);
+    left: 500px;
+    top: 100px;
+}
+
+.laptop {
+    width: 40%;
+}
+
+.profile {
+    width: 30%;
+    margin: auto;
+}
+
+.profile-text {
+    line-height: 2;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    width: 50%;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    line-height: 2;
+}
+
+.skill-row-image {
+    width: 25%;
+    background-color: #FFA1CF;
+    border-radius: 50%;
+}
+
+.skill-row-image:hover {
+    background-color: #ffffff;
+}
+
+.mr-1 {
+    margin-right: 30px;
+}
+
+.ml-1 {
+    margin-left: 30px;
+}
+
+.mv-1 {
+    margin: 1em auto;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.clear {
+    clear: both;
+}
+
+.hr {
+    width: 5%;
+    margin: 4.25em auto;
+    border: none;
+    border-top: 10px dotted #FFA1CF;
+}
+
+.bottom-container {
+    background-color: #FFA1CF;
+    padding: 2em;
+}
+
+.footer-link {
+    color: #FF74B1;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin:1.5em;
+}
+
+.copyright {
+    margin-top: 1.5rem;
+    color: #FFD6EC;
+}
+
+.btn {
+    background-color: #AB46D2;
+    color: #FFD6EC;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.contact-me {
+    margin: 3em
+}
